@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+}
+
+.ratingdiv {
+    width: 400px;
+    height: 400px;
+    background-color: hsl(216, 12%, 8%);
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 32px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ausrichtung {
+    padding: 28px;
+    
+}
+
+#star {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color:  hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    font-size: 20px; /* Stelle die Schriftgröße so ein, dass sie die gewünschte Größe hat */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.numberfield {
+    display: flex;
+    flex-direction: row; /* Änderung: Reverse-Reihenfolge für die Flex-Anordnung */
+    align-items: center;
+    justify-content: space-between; /* Änderung: Gleichmäßige Verteilung der Sterne */
+    margin-bottom: 30px;
+}
+
+.rating {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+}
+
+
+.rating:hover{
+    background-color: gray;
+    color: white;
+}
+
+.selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+#hdwd {
+    color: white;
+}
+
+p {
+    color:  hsl(217, 12%, 63%);
+}
+
+button {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 344px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.ausrichtung2 {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ratingfield {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+
+    width: 200px;
+    height: 25px;
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+
+    border-radius: 25px;
+    /* font-size: 12px; */
+}
+
+
+#ty {
+    color: white;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+#ty2 {
+    text-align: center;
+}
